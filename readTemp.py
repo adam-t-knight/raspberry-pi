@@ -18,7 +18,7 @@ def readTemp(sensorName):
 
 sensor = '28-01205fac9d72'
 t = readTemp(sensor)
-print(u'Temperature reading is %2.1f \u2183' % t)
+print('Temperature reading is', t)
 
 #sensors = [ '28-000005a1fbf8', '28-000005a28f03']
 #while True:
