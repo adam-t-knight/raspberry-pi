@@ -9,7 +9,7 @@ CLIENT_ID = "AdamClientID"
 PATH_TO_CERT = "/home/pi/certs2/511f2aa63a-certificate.pem.crt"
 PATH_TO_KEY = "/home/pi/certs2/511f2aa63a-private.pem.key"
 PATH_TO_ROOT = "/home/pi/certs2/AmazonRootCA1.pem"
-MESSAGE = "Hello from RPI"
+MESSAGE = "Hello at least once from RPI"
 TOPIC = "aws-iot-app"
 RANGE = 20
 
