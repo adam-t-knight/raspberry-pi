@@ -44,7 +44,7 @@ mqtt_connection = mqtt_connection_builder.mtls_from_path(
             ca_filepath=PATH_TO_ROOT,
             client_id=CLIENT_ID,
             clean_session=False,
-            keep_alive_secs=6
+            keep_alive_secs=4
             )
 print("Connecting to {} with client ID '{}'...".format(
         ENDPOINT, CLIENT_ID))
